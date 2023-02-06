@@ -38,6 +38,10 @@ body {
   padding: 0;
 }
 
+/* ul {
+  list-style-type: none;
+} */
+
 /* --------------------------------------------Header -----------------------------------------------*/
 
 .container {
@@ -45,7 +49,7 @@ body {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+   justify-content: space-between;
   align-items: center;
 }
 
@@ -723,7 +727,7 @@ textarea::placeholder {
 
   .command-foto {
     width: 354px;
-    height: 374px;
+    height: 364px;
   }
 
   .client-logo {
@@ -796,7 +800,6 @@ textarea::placeholder {
 
 @media only screen and (max-width: 767.9px) {
   .container {
-    align-items: center;
     max-width: 550px;
     align-items: center;
     flex-direction: column;
@@ -836,18 +839,12 @@ textarea::placeholder {
    text-align: center;
   }
 
-  .features-img,
-  .features-items {
-    width: 450px;
-  }
-
-  .command-foto {
-    width: 450px;
-    height: 460px;
+  .email {
+    padding-left: 0;
   }
 
   .client-logo {
-    width: 210px;
+    max-width: 190px;
   }
 
   .features-title {
@@ -857,7 +854,7 @@ textarea::placeholder {
   .job-list, 
   .comand-list,
   .client-list {
-    width: 480px;
+    max-width: 430px;
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
